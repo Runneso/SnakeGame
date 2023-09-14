@@ -104,4 +104,4 @@ if __name__ == "__main__":
                                  (snake.get_coordinates()[0], snake.get_coordinates()[1] + 40 * index))
 
         pygame.display.update()
-        clock.tick(30)
+        clock.tick(FPS)
